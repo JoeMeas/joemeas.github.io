@@ -58,7 +58,7 @@ h5,
 h6 {
     letter-spacing: 1.0px;
     word-spacing: 2.0px;
-    font-family: DINPro,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     margin-top: 40px;
 }
@@ -143,7 +143,7 @@ header .intro-text .name {
     display: block;
     letter-spacing: 1.0px;
     word-spacing: 2.0px;
-    font-family: DINPro,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -165,7 +165,7 @@ header .intro-text .skills {
 
     header .intro-text .skills {
         font-size: 1.75em;
-        font-family: DINPro;
+        font-family: "DINPro";
     }
 }
 
@@ -195,7 +195,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: DINPro,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
