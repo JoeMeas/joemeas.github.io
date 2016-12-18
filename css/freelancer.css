@@ -487,6 +487,7 @@ footer .footer-below {
 
 .portfolio-modal .close-modal:hover {
     opacity: .3;
+        display: none;
 }
 
 .portfolio-modal .close-modal .lr {
@@ -498,6 +499,7 @@ footer .footer-below {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+        display: none;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -508,6 +510,7 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+        display: none;
 }
 
 .portfolio-modal .modal-backdrop {
