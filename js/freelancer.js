@@ -33,7 +33,11 @@ $('body').scrollspy({
 
 // Closes Modals on Nav Bar Click
 $('.top-nav-button').click(function(){
-    $('.portfolio-modal').modal('toggle');
+    $('.portfolio-modal').each(function(){
+        if(this.hasClass('in')){
+            this.modal('toggle');
+        }
+    });
 });
 
 // Closes the Responsive Menu on Menu Item Click
