@@ -211,7 +211,6 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    z-index: 99 !important;
 }
 
 .navbar a:focus {
@@ -431,7 +430,7 @@ footer .footer-below {
 }
 
 .scroll-top {
-    z-index: 1049;
+    z-index: 9999;
     position: fixed;
     right: 2%;
     bottom: 2%;
