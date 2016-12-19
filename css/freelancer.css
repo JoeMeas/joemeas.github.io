@@ -489,7 +489,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .close-modal .lr {
-    z-index: 1031;
+    z-index: 2001;
     width: 1px;
     height: 75px;
     margin-left: 35px;
@@ -500,7 +500,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .close-modal .lr .rl {
-    z-index: 1032;
+    z-index: 2002;
     width: 1px;
     height: 75px;
     background-color: #d3d3d3;
