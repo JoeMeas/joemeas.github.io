@@ -482,12 +482,10 @@ footer .footer-below {
     height: 75px;
     background-color: transparent;
     cursor: pointer;
-    display: none;
 }
 
 .portfolio-modal .close-modal:hover {
     opacity: .3;
-        display: none;
 }
 
 .portfolio-modal .close-modal .lr {
@@ -499,7 +497,6 @@ footer .footer-below {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-        display: none;
 }
 
 .portfolio-modal .close-modal .lr .rl {
@@ -510,7 +507,6 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-        display: none;
 }
 
 .portfolio-modal .modal-backdrop {
