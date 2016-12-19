@@ -32,15 +32,15 @@ $('body').scrollspy({
 })
 
 // Closes Modals on Nav Bar Click
-$('.top-nav-button').click(function(){
-    $('.portfolio-modal').each(function(){
-        if($('.portfolio-modal').hasClass('in')){
-            $('.portfolio-modal').modal('toggle');
-        }
-    });
-});
+//$('.top-nav-button').click(function(){
+//    $('.portfolio-modal').each(function(){
+//        if($('.portfolio-modal').hasClass('in')){
+//            $('.portfolio-modal').modal('toggle');
+//        }
+//    });
+//});
 
 // Closes the Responsive Menu on Menu Item Click
-//$('.navbar-collapse ul li a').click(function() {
-//   $('.navbar-toggle:visible').click();
-//});
+$('.navbar-collapse ul li a').click(function() {
+   $('.navbar-toggle:visible').click();
+});
