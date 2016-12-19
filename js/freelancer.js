@@ -34,8 +34,8 @@ $('body').scrollspy({
 // Closes Modals on Nav Bar Click
 $('.top-nav-button').click(function(){
     $('.portfolio-modal').each(function(){
-        if(this.hasClass('in')){
-            this.modal('toggle');
+        if($('.portfolio-modal').hasClass('in')){
+            $('.portfolio-modal').modal('toggle');
         }
     });
 });
