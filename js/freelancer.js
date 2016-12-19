@@ -31,6 +31,11 @@ $('body').scrollspy({
     target: '.navbar-fixed-top'
 })
 
+// Closes Modals on Nav Bar Click
+$('.top-nav-button').click(function(){
+    $('.portfolio-modal').modal('toggle');
+});
+
 // Closes the Responsive Menu on Menu Item Click
 //$('.navbar-collapse ul li a').click(function() {
 //   $('.navbar-toggle:visible').click();
