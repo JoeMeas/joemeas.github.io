@@ -140,7 +140,7 @@ header {
     color: #f7f7f7; /*#36454f;*/
     background-image: url("../img/backdropart.png");
     background-size: cover;
-    /*background: #f7f7f7; /*#d3d3d3; */
+    /* background: #f7f7f7; #d3d3d3; */
 }
 
 header .container {
