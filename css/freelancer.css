@@ -138,8 +138,8 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #36454f;
-    /*background-image: url("http://webhost.ischool.uw.edu/~perrylin/img/backdropart.png");
-    background-size: cover;*/
+    background-image: url("img/headerart.png");
+    /*background-size: cover;*/
     background: #f7f7f7; /*#d3d3d3; */
 }
 
