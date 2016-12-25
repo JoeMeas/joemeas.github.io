@@ -560,8 +560,20 @@ footer .footer-below {
 }
 
 .item-summary {
-    background-color: #ffffff;
-    text-align: center;
+    /*background-color: #ffffff;*/
+    text-align: left;
+}
+
+.item-summary .item-title {
+    font-size: 25pt;
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width:768px){
+    .item-summary .item-title {
+        font-size: 25pt;
+        text-align: center;
+    }
 }
 
 .item-title {
