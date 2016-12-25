@@ -183,7 +183,16 @@ header .intro-text .skills {
     }
 }
 
-@media(min-width:768px) {
+#icon-link{
+    padding: 0;
+}
+
+#persona-icon{
+    width: 60px;
+    border-radius: 30px;
+}
+
+@media(min-width:700px) {
     .navbar-fixed-top {
         padding: 25px 0;
         -webkit-transition: padding .3s;
@@ -208,9 +217,10 @@ header .intro-text .skills {
 }
 
 .navbar {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    letter-spacing: 1.0pt;
+    /*font-weight: 700;*/
 }
 
 .navbar a:focus {
