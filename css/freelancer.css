@@ -244,6 +244,7 @@ header .intro-text .skills {
 .navbar {
     /*text-transform: uppercase;*/
     font-family: "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14pt;
     letter-spacing: 1.0pt;
     padding: 15px;
     /*font-weight: 700;*/
@@ -334,7 +335,7 @@ section.success {
 #currentprojects, #portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
     top: 50%;
-    width: 100%;
+    /*width: 100%;*/
     height: 20px;
     margin-top: -12px;
     text-align: left;
