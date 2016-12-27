@@ -187,11 +187,11 @@ header .intro-text .skills {
 
 #icon-link{
     padding: 0;
-    width: 60px;
+    width: 55px;
 }
 
 #persona-icon{
-    height: 60px;
+    height: 55px;
     margin-top: 0px;
     margin-bottom: 0px;
     /*margin-left: 15px;*/
@@ -219,7 +219,7 @@ header .intro-text .skills {
 
 @media(min-width:700px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        /*padding: 25px 0;*/
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -233,7 +233,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 15px;
+        /*padding: 10px 15px;*/
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
