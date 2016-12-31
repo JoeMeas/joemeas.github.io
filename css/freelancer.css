@@ -30,7 +30,7 @@ p.small {
     font-size: 14px;
     text-align: center;
     font-style: italic;
-    padding: 5px 35px;
+    padding: 10px 35px;
     margin-bottom: 22px;
 }
 
@@ -187,41 +187,35 @@ header .intro-text .skills {
 
 #icon-link{
     padding: 0;
-    width: 55px;
+    width: 60px;
 }
 
 #persona-icon{
-    height: 55px;
+    left: 0px;
+    top: 0px;
+    height: 60px;
     margin-top: 0px;
     margin-bottom: 0px;
-    border-radius: 27.5px;
     /*margin-left: 15px;*/
 }
 
-@media screen and (max-width:699px) {
-    header {
-        
-    }
+/*@media screen and (max-width:699px) {
 
     #persona-icon{
-        width: 40px;
-        height: 40px;
         margin-left: 15px;
-        border-radius: 20px;
     }
 
     #icon-link{
-        height: 40px;
     }
 
     .nav a{
         margin-right: 15px;
     }
-}
+}*/
 
-@media(min-width:700px) {
+/*@media(min-width:700px) {
     .navbar-fixed-top {
-        /*padding: 25px 0;*/
+        padding: 25px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -241,32 +235,43 @@ header .intro-text .skills {
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
-}
+}*/
 
 .navbar {
     /*text-transform: uppercase;*/
     font-family: "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14pt;
     letter-spacing: 1.0pt;
+    /*height: 60px;*/
     padding: 15px;
     /*font-weight: 700;*/
 }
 
-.navbar a:focus {
+/*.navbar a:focus {
     outline: 0;
-}
+}*/
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
-    margin-left: 15px!important;
     margin-right: 15px!important;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
-.navbar .navbar-nav li a:focus {
-    outline: 0;
+@media(max-width:768px) {
+    .navbar-nav {
+        margin: 0px 0px!important;
+    }
+
+    .navbar-nav li a{
+        padding-top: 19.5px;
+        padding-bottom: 19.5px;
+    }
 }
+
+/*.navbar .navbar-nav li a:focus {
+    outline: 0;
+}*/
 
 .navbar-default,
 .navbar-inverse {
@@ -275,7 +280,7 @@ header .intro-text .skills {
 
 .nav a{
     display: block;
-    float: right;
+    float: left;
 }
 
 section {
@@ -342,6 +347,7 @@ section.success {
     margin-top: -12px;
     text-align: left;
     font-size: 20px;
+    padding-right: 35px;
     color: #fff;
 }
 
@@ -358,7 +364,7 @@ section.success {
     z-index: 2;
 }
 
-@media(min-width:767px) {
+@media(min-width:768px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
@@ -583,7 +589,7 @@ footer .footer-below {
     font-size: 1.5vw;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:769px){
     .item-summary .item-title {
         font-size: 25pt;
         text-align: center;
