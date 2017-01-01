@@ -585,11 +585,11 @@ footer .footer-below {
 }
 
 .item-summary .item-title {
-    font-size: 25pt;
+    /*font-size: 25pt;*/
     font-size: 1.5vw;
 }
 
-@media screen and (max-width:769px){
+@media screen and (max-width:767px){
     .item-summary .item-title {
         font-size: 25pt;
         text-align: center;
