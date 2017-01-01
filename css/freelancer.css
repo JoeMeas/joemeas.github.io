@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
     background-color: #f7f7f7;
     margin-top: 65px;
+    color: #424242;
 }
 
 iframe {
@@ -15,7 +16,7 @@ iframe {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 2.0em;
     font-family: "Skolar Sans Latin";
     letter-spacing: 0.2px;
@@ -27,7 +28,7 @@ p.small {
 }
 
 .caption{
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
     font-style: italic;
     padding: 10px 35px;
@@ -40,12 +41,19 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #c7c7c7;
+    color: #255484;
     font-family: "skolar sans latin";
+    font-weight: 700;
 }
 
 ul{
     text-align: left;
+}
+
+.modal-content li{
+    margin: 0 0 4px 0;
+    font-size: 16px;
+    font-family: "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .list-inline{
@@ -69,9 +77,9 @@ hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
-    max-width: 250px;
+    /*max-width: 650px;*/
     border: 0;
-    //border-top: solid 5px;
+    border-top: solid 1px;
     text-align: center;
 }
 
@@ -134,7 +142,7 @@ hr.star-primary:after {
 }
 
 .img-responsive {
-    width: 600px;
+    width: 700px;
 }
 
 header {
@@ -157,7 +165,7 @@ header img {
 
 header .intro-text .name {
     display: block;
-    letter-spacing: 1.0px;
+    letter-spacing: 3.0px;
     word-spacing: 2.0px;
     font-family: "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
@@ -167,6 +175,7 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    letter-spacing: 0.5px;
 }
 
 @media(min-width:768px) {
@@ -295,6 +304,10 @@ section h2 {
 section.success {
     color: #fff;
     background: #36454f; /*#d3d3d3;*/
+}
+
+section.success a{
+    color: #FFF;
 }
 
 @media(max-width:767px) {
@@ -515,9 +528,26 @@ footer .footer-below {
     box-shadow: none;
 }
 
+@media screen and (min-width: 1201px){
+    .modal-content .container{
+        width: 90%;
+    }
+}
+
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
+    text-align: center;
+}
+
+.portfolio-modal .modal-content h3 {
+    margin-top: 55px;
+    margin-bottom: 15px;
+}
+
+.portfolio-modal .modal-content h4 {
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
 
 .portfolio-modal .modal-content img {
@@ -591,7 +621,7 @@ footer .footer-below {
 
 @media screen and (max-width:767px){
     .item-summary .item-title {
-        font-size: 25pt;
+        font-size: 20pt;
         text-align: center;
     }
 }
