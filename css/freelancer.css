@@ -15,10 +15,18 @@ iframe {
 	margin:  0 auto;
 }
 
+strong{
+    font-weight: 700;
+}
+
+b {
+    font-weight: 700;
+}
+
 p {
     font-size: 16px;
-    line-height: 2.0em;
-    font-family: "Skolar Sans Latin";
+    line-height: 27px;
+    font-family: 'Open Sans', Arial, sans-serif; /*"Skolar Sans Latin"*/
     letter-spacing: 0.2px;
     margin: 0 0 20.0px;
 }
@@ -36,14 +44,17 @@ p.small {
 }
 
 a,
-a:hover,
 a:focus,
 a:active,
 a.active {
     outline: 0;
     color: #255484;
-    font-family: "skolar sans latin";
+    font-family: 'Open Sans', 'skolar sans latin', sans-serif;
     font-weight: 700;
+}
+
+a:hover{
+    color: #6099d2;
 }
 
 ul{
@@ -53,7 +64,7 @@ ul{
 .modal-content li{
     margin: 0 0 4px 0;
     font-size: 16px;
-    font-family: "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans', "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .list-inline{
@@ -68,9 +79,14 @@ h5,
 h6 {
     letter-spacing: 1.0px;
     word-spacing: 2.0px;
-    font-family: "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Poppins', "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     margin-top: 40px;
+    color: #255484;
+}
+
+.success h2, .success h3{
+    color:#f7f7f7;
 }
 
 hr.star-light,
@@ -185,7 +201,7 @@ header .intro-text .name {
     display: block;
     letter-spacing: 3.0px;
     word-spacing: 2.0px;
-    font-family: "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Poppins', "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -208,7 +224,7 @@ header .intro-text .skills {
 
     header .intro-text .skills {
         font-size: 1.75em;
-        font-family: "DINPro";
+        font-family: 'Poppins',"DINPro", sans-serif;
     }
 }
 
@@ -266,7 +282,7 @@ header .intro-text .skills {
 
 .navbar {
     /*text-transform: uppercase;*/
-    font-family: "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Poppins', "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14pt;
     letter-spacing: 1.0pt;
     /*height: 60px;*/
@@ -360,7 +376,7 @@ section.success a{
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(211,211,211,.9);
+    background: rgba(0,0,0,.5);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -546,9 +562,20 @@ footer .footer-below {
     box-shadow: none;
 }
 
-@media screen and (min-width: 1201px){
+/*@media screen and (min-width: 1201px){
     .modal-content .container{
         width: 90%;
+    }
+}*/
+
+@media (min-width: 1200px) {
+    .col-lg-offset-2 {
+        margin-left: 20%!important;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-8 {
+        width: 60%!important;
     }
 }
 
@@ -646,14 +673,21 @@ footer .footer-below {
 
 .item-title {
     font-size: 20px;
-    font-family: "Skolar Sans Latin", "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Poppins', "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     margin-bottom: 0;
+    font-style: normal;
+    line-height: 32px;
+}
+
+.item-summary .item-title{
+    color: #255484;
 }
 
 .item-sub-title {
     margin-top: 0;
-    font-family: "Skolar Sans Latin", "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-family: 'Open Sans', "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
     font-style: italic;
 }
