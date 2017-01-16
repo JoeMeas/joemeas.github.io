@@ -79,7 +79,7 @@ h5,
 h6 {
     letter-spacing: 1.0px;
     word-spacing: 2.0px;
-    font-family: 'Poppins', "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
     margin-top: 40px;
     color: #255484;
@@ -201,7 +201,7 @@ header .intro-text .name {
     display: block;
     letter-spacing: 3.0px;
     word-spacing: 2.0px;
-    font-family: 'Poppins', "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Source Sans Pro', 'Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -224,7 +224,7 @@ header .intro-text .skills {
 
     header .intro-text .skills {
         font-size: 1.75em;
-        font-family: 'Poppins',"DINPro", sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
     }
 }
 
@@ -282,7 +282,7 @@ header .intro-text .skills {
 
 .navbar {
     /*text-transform: uppercase;*/
-    font-family: 'Poppins', "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Source Sans Pro', 'Helvetica Neue',Helvetica,Arial,sans-serif;
     font-size: 14pt;
     letter-spacing: 1.0pt;
     /*height: 60px;*/
@@ -673,7 +673,7 @@ footer .footer-below {
 
 .item-title {
     font-size: 20px;
-    font-family: 'Poppins', "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Source Sans Pro', 'Helvetica Neue',Helvetica,Arial,sans-serif;
     font-weight: 700;
     margin-bottom: 0;
     font-style: normal;
