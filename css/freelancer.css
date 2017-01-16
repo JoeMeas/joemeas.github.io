@@ -655,8 +655,8 @@ footer .footer-below {
 }
 
 .item-summary {
-    /*background-color: #ffffff;*/
     text-align: left;
+    margin: 0 0 3px;
 }
 
 .item-summary .item-title {
