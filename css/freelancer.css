@@ -337,7 +337,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #36454f; /*#d3d3d3;*/
+    background: #bbe1bd; /* #36454f; #d3d3d3;*/
 }
 
 section.success a{
