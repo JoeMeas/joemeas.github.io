@@ -86,7 +86,7 @@ h6 {
 }
 
 .success h2, .success h3{
-    color:#f7f7f7;
+    color:#255484; /*#f7f7f7;*/
 }
 
 hr.star-light,
@@ -419,7 +419,7 @@ section.success a{
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #255484; /*#fff;*/
     font-size: 20px;
     color: #fff;
     background: 0 0;
