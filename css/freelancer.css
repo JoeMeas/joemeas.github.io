@@ -346,7 +346,7 @@ section.success {
 }
 
 section.success a{
-    color: #FFF;
+    color: #255484 /*#FFF*/;
 }
 
 @media(max-width:767px) {
