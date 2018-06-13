@@ -26,7 +26,7 @@ b {
 p {
     font-size: 16px;
     line-height: 27px;
-    font-family: 'Lora', Arial, sans-serif; /*"Skolar Sans Latin"*/
+    font-family: 'Lora', serif; /*"Skolar Sans Latin"*/
     letter-spacing: 0.2px;
     margin: 0 0 20.0px;
 }
@@ -49,7 +49,7 @@ a:active,
 a.active {
     outline: 0;
     color: #255484;
-    font-family: 'Lora', 'skolar sans latin', sans-serif;
+    font-family: 'Lora', serif;
     font-weight: 700;
 }
 
@@ -64,7 +64,7 @@ ul{
 .modal-content li{
     margin: 0 0 4px 0;
     font-size: 16px;
-    font-family: 'Lora', "DINPro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Lora', serif; /*DINPro*/
 }
 
 .list-inline{
@@ -686,7 +686,7 @@ footer .footer-below {
 
 .item-sub-title {
     margin-top: 0;
-    font-family: 'Lora', "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 14px;
     font-style: italic;
