@@ -295,10 +295,15 @@ header .intro-text .skills {
 }*/
 
 .navbar .navbar-nav {
+    font-family: 'Oxygen', sans-serif;
     letter-spacing: 1px;
     margin-right: 15px!important;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.navbar-nav li a{
+    font-family: 'Oxygen', sans-serif;
 }
 
 @media(max-width:768px) {
