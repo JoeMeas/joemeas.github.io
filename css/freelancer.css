@@ -689,6 +689,10 @@ footer .footer-below {
     color: #424242;
 }
 
+#resume_button {
+    font-family: 'Oxygen', sans-serif;
+}
+
 .item-sub-title {
     margin-top: 0;
     font-family: 'Lora', serif;
